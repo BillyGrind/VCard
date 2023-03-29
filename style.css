@@ -1,0 +1,65 @@
+/*
+
+bleu foncé : #273043
+bleu clair : #9197AE
+fond clair : #EFF6EE
+rouge clair : #F02D3A
+rouge foncé : #DD0426
+
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body{
+    background-color: #EFF6EE;
+}
+
+li, a,p,button {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F02D3A;
+    padding: 10px 10%;
+}
+img{
+    justify-content: flex-start;
+    max-height: 50px;
+    color: #EFF6EE;
+}
+.nav_link{
+    list-style: none;
+}
+
+.nav_link li{
+    display: inline-block;
+}
+
+.nav_link li a {
+    color: #EFF6EE;
+    padding: 0px 20px;
+}
+
+
+.contact{
+    background-color: #9197AE;
+    border: none;
+    color: #EFF6EE;
+    border-radius: 15px;
+    padding: 13px;
+
+}
