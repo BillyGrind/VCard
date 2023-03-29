@@ -20,6 +20,7 @@ rouge foncé : #DD0426
 
 body{
     background-color: #EFF6EE;
+    height: 100vh;
 }
 
 li, a,p,button {
@@ -36,7 +37,7 @@ header{
     background-color: #F02D3A;
     padding: 10px 10%;
 }
-img{
+.logo{
     justify-content: flex-start;
     max-height: 50px;
     color: #EFF6EE;
@@ -62,4 +63,32 @@ img{
     border-radius: 15px;
     padding: 13px;
 
+}
+
+
+body{
+    margin: auto;
+}
+
+.infos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content:flex-start;
+}
+
+.gars{
+    height: 500px;
+    width: auto;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #EFF6EE;
+    background-color: #9197AE;
+    padding: 5%;
 }
